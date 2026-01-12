@@ -1,0 +1,45 @@
+# --- ROS 2 / colcon build outputs ---
+**/build/
+**/install/
+**/log/
+
+# colcon marker files
+**/COLCON_IGNORE
+
+# --- ament / ros tooling ---
+**/.ament_ignore
+**/.pytest_cache/
+
+# --- CMake build artifacts (if you build in-source) ---
+**/CMakeFiles/
+**/CMakeCache.txt
+**/cmake_install.cmake
+**/Makefile
+**/compile_commands.json
+**/CTestTestfile.cmake
+**/Testing/
+
+# --- IDE / editor ---
+.vscode/
+.idea/
+*.swp
+*~
+.DS_Store
+
+# --- Python ---
+**/__pycache__/
+**/*.py[cod]
+**/*.pyo
+**/*.pyd
+**/.Python
+**/.venv/
+**/venv/
+**/env/
+
+# --- Logs / misc ---
+**/*.log
+
+# --- Optional: ignore generated binaries (common in small CMake exercises) ---
+# Uncomment if you build standalone executables in-tree
+# **/*.out
+# **/a.out
